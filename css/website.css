@@ -1,0 +1,580 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+} 
+
+#photo_circle{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    position: relative;;
+    object-fit: cover;
+    object-position: center;
+    left: 800px;
+    top: 170px;
+}
+
+.main_title{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-size: 70px;
+    position: relative;
+    top: -350px;
+    left: 290px;
+}
+
+.caption_pt1
+{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: -380px;
+    left: 50px;
+}
+
+.caption_pt2
+{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: -410px;
+    left: 270px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+
+#homeLink{
+    font-family: 'Geist', sans-serif;
+    left: 80px;
+    top: -1000px;
+    position: relative;
+    color: white;
+}
+
+.contactLink{
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    top: -1000px;
+    left: 200px;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.ProjectsLink{
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    top: -1000px;
+    left: 320px;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+#AboutLink{
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    top: -1000px;
+    left: 440px;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.download_resume{
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    font-size: 35px;
+    border-radius: 70px;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    background-image: linear-gradient(to right, #e3345e, purple, blue);;
+    color: white;
+    font-weight: bold;
+    top: -350px;
+    left: 220px;
+    border: none; 
+}
+
+.loginLogo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #8558b7;
+    position: relative;
+    top: -1092px;
+    left: 1300px;
+}
+
+.loginLogo p{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 23px;
+    top: 10px;
+}
+
+h1{
+    color: white;
+}
+
+#aboutHome{
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    color: white;
+    top: 55px;
+    left: 80px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.aboutContact{
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    color: white;
+    top: 55px;
+    left: 180px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.aboutProject{
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    top: 55px;
+    left: 280px;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.aboutMe{
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    top: 55px;
+    left: 380px;
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.logLogo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #8558b7;
+    position: relative;
+    top: -40px;
+    left: 1300px;
+}
+
+.logLogo p{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    left: 23px;
+    top: 10px;
+}
+
+.AboutLabel{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    font-size: 70px;
+    position: relative;
+    left: 140px;
+}
+
+.aboutDescription{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    margin-left: 140px;
+    max-width: 70%;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.reachOut{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    font-size: 60px;
+    left: 80px;
+    top: 20px;
+}
+
+.emailLogo img{
+    position: relative;
+    height: 80px;
+    left: 80px;
+    top: 50px;
+}
+
+.linkedIn img{
+    position: relative;
+    height: 80px;
+    left: 100px;
+    top: 50px;
+}
+
+.GitHub img{
+    position: relative;
+    height: 80px;
+    left: 120px;
+    top: 50px;
+}
+
+.resume{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    font-size: 60px;
+    left: 80px;
+    top: 100px;
+}
+
+.rlogo{
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    background: purple;
+    color: white;
+    font-weight: bold;
+    top: 100px;
+    left: 80px;
+    border: none;
+}
+
+.projectTitle{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    font-size: 60px;
+    left: 80px;
+    top: -10px;
+}
+
+.pDescription{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    font-size: 30px;
+    left: 80px;
+    top: -30px;
+}
+
+.chronology{
+    width: 500px;
+    left: 80px;
+    top: 30px;
+    position: relative;
+}
+
+.chronTitle{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+
+.chronDesc{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 80px;
+    top: 60px;
+    max-width: 35%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.viewProject{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative; 
+    left: 75px;
+    top: -110px;
+    background-color: #5d2942;
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    padding-right: 45px;
+    padding-left: 20px;
+}
+
+.material-symbols-outlined{
+    color: white;
+    left: 15px;
+    top: 0px;
+    position: relative;
+    vertical-align:middle;
+    align-items: center;
+}
+
+.productive{
+    width: 500px;
+    left: 480px;
+    top: -370px;
+    position: relative;
+}
+
+.productTitle{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 775px;
+    top: -360px;
+}
+
+.productDesc{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 774px;
+    top: -362px;
+    max-width: 40%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.viewProject1{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative; 
+    left: 765px;
+    top: -600px;
+    background-color: #5d2942;
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    padding-right: 45px;
+    padding-left: 20px;
+}
+
+.map{
+    width: 550px;
+    left: -210px;
+    top: -105px;
+    position: relative;
+}
+
+.NYC{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 80px;
+    top: -90px;
+}
+
+.NYCdesc{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 80px;
+    top: -80px;
+    max-width: 40%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.viewProject2{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative; 
+    left: 75px;
+    top: -320px;
+    background-color: #5d2942;
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    padding-right: 45px;
+    padding-left: 20px;
+}
+
+.git{
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-offset: 10px; 
+    text-decoration-thickness: 3.1px; 
+}
+
+.git:visited {
+    text-decoration: underline; 
+    font-size: 30px;
+  }
+
+  .ODU{
+    font-size: 25px;
+    text-decoration: underline;
+    text-underline-offset: 3px; 
+    text-decoration-thickness: 3.1px; 
+  }
+
+  .ODU:visited {
+    text-decoration: underline; 
+    font-size: 30px;
+  }
+
+  .undergrad{
+    width: 400px;
+    left: 550px;
+    top: -550px;
+    position: relative;
+  }
+
+  .undergradTitle{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 770px;
+    top: -540px;
+  }
+
+  .paper{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 778px;
+    top: -545px;
+    max-width: 40%;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .viewProject3{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative; 
+    left: 900px;
+    top: -840px;
+    background-color: #5d2942;
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    padding-right: 45px;
+    padding-left: 20px;
+  }
+
+  .filter{
+    width: 500px;
+    left: -210px;
+    top: -300px;
+    position: relative;
+  }
+
+  .cnn{
+    width: 450px;
+    left: 50px;
+    top: -300px;
+    position: relative;
+  }
+
+  .imageFilter{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 77px;
+    top: -300px;
+  }
+
+  .labs{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 845px;
+    top: -360px;
+  }
+
+  .labDesc{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 840px;
+    top: -362px;
+    max-width: 33%;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .imFilterDec{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 80px;
+    top: -425px;
+    max-width: 34%;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .viewProjectLabs{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative; 
+    left: 540px;
+    top: -380px;
+    background-color: #5d2942;
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    padding-right: 45px;
+    padding-left: 20px;
+  }
+
+  .viewProjectImFilter{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative; 
+    left: 70px;
+    top: -380px;
+    background-color: #5d2942;
+    padding: 15px;
+    border-radius: 60px;
+    border: none;
+    padding-right: 45px;
+    padding-left: 20px;
+  }
+
+  .stayTuned{
+    color: white;
+    font-family: 'Geist', sans-serif;
+    position: relative;
+    left: 250px;
+    top: -200px;
+    font-size: 50px;
+  }
