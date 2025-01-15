@@ -461,7 +461,8 @@ h1{
     color: white;
     font-family: 'Geist', sans-serif;
     position: relative;
-    left: 770px;
+    max-width: 40%;
+    left: 830px;
     top: -540px;
   }
 
@@ -469,7 +470,7 @@ h1{
     color: white;
     font-family: 'Geist', sans-serif;
     position: relative;
-    left: 778px;
+    left: 830px;
     top: -545px;
     max-width: 40%;
     font-size: 20px;
@@ -480,7 +481,7 @@ h1{
     color: white;
     font-family: 'Geist', sans-serif;
     position: relative; 
-    left: 900px;
+    left: 820px;
     top: -840px;
     background-color: #8558b7;
     padding: 15px;
