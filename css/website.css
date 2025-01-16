@@ -583,7 +583,7 @@ h1{
   /*for iphone*/
   @media only screen and (max-width: 767px){
     body{
-        background-color: lightblue;
+        background-color: black;
         overflow-x: auto;
         overflow-y: auto;
     }
@@ -599,6 +599,18 @@ h1{
         position: relative;
         top: -1300px;
         left: 200px;
+        color: white;
+        padding: 0;
+        border: none;
+        background: none;
+        font-size: 30px;
+    }
+
+    #AboutLink{
+        font-family: 'Geist', sans-serif;
+        position: relative;
+        top: -1100px;
+        left: 440px;
         color: white;
         padding: 0;
         border: none;
