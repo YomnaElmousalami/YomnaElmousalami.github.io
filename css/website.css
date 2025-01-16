@@ -590,14 +590,14 @@ h1{
     #homeLink{
         font-family: 'Geist', sans-serif;
         left: 60px;
-        top: -1100px;
+        top: -1300px;
         position: relative;
         color: white;
     }
     .contactLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -1100px;
+        top: -1300px;
         left: 200px;
         color: white;
         padding: 0;
