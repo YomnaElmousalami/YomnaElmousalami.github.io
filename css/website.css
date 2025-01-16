@@ -584,4 +584,13 @@ h1{
     body {
         background-color: lightblue;
     }
+
+    #homeLink{
+        font-family: 'Geist', sans-serif;
+        left: 50px;
+        top: -1100px;
+        position: relative;
+        color: white;
+    }
+    
 }
