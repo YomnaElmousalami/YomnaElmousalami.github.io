@@ -581,7 +581,11 @@ h1{
   }
 
   @media only screen and (max-width: 812px) and (min-width: 375px) {
-    body {
-        background-color: lightpink;
+    #homeLink{
+        font-family: 'Geist', sans-serif;
+        left: 60px;
+        top: -1100px;
+        position: relative;
+        color: white;
     }
 }
