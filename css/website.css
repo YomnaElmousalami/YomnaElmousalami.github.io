@@ -579,3 +579,10 @@ h1{
     top: -170px;
     font-size: 50px;
   }
+
+  /*trial code*/
+  @media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
