@@ -579,3 +579,9 @@ h1{
     top: -170px;
     font-size: 50px;
   }
+
+  @media only screen and (max-width: 812px) and (min-width: 375px) {
+    body {
+        background-color: lightpink;
+    }
+}
