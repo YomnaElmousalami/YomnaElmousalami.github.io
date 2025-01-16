@@ -1,4 +1,3 @@
-@media (min-width: 1025px) and (max-width: 1280px) {
 * {
     box-sizing: border-box;
 }
@@ -580,4 +579,3 @@ h1{
     top: -170px;
     font-size: 50px;
   }
-}
