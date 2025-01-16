@@ -580,7 +580,8 @@ h1{
     font-size: 50px;
   }
 
-  @media only screen and (max-width: 812px) and (min-width: 375px) {
+  /*portrait*/
+  @media only screen and (device-width: 414px) and (device-height: 896px) and (orientation: portrait){
     body {
         background-color: lightblue;
     }
@@ -592,5 +593,24 @@ h1{
         position: relative;
         color: white;
     }
-    
+
+    .contactLink{
+        font-family: 'Geist', sans-serif;
+        position: relative;
+        top: -1200px;
+        left: 200px;
+        color: white;
+        padding: 0;
+        border: none;
+        background: none;
+        font-size: 30px;
+    }
 }
+
+    /*landscape*/
+    @media only screen and (device-width: 896px) and (device-height: 414px) and (orientation: landscape){
+        body {
+            background-color: lightblue;
+        }
+    
+    }
