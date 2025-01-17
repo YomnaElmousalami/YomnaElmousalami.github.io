@@ -580,18 +580,18 @@ h1{
     font-size: 50px;
   }
 
+
   /*for iphone users*/
   @media only screen and (max-width: 767px){
     html, body{
         background-color: black;
         overflow-y: scroll;
-        overflow-x: auto;
         height: 100%;
     }
     #homeLink{
         font-family: 'Geist', sans-serif;
         left: 30px;
-        top: -670px;
+        top: -560px;
         position: relative;
         color: white;
         font-size: 15px;
@@ -599,7 +599,7 @@ h1{
     .contactLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -670px;
+        top: -560px;
         left: 50px;
         color: white;
         padding: 0;
@@ -611,7 +611,7 @@ h1{
     .ProjectsLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -670px;
+        top: -560px;
         left: 70px;
         color: white;
         padding: 0;
@@ -623,7 +623,7 @@ h1{
     #AboutLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -670px;
+        top: -560px;
         left: 90px;
         color: white;
         padding: 0;
@@ -638,7 +638,7 @@ h1{
 
     .main_title{
         left: 30px;
-        top: -210px;
+        top: -200px;
         font-size: 45px;
         max-width: 83%;
     }
@@ -655,7 +655,7 @@ h1{
     }
 
     .caption_pt1{
-        top: 75px;
+        top: 70px;
         left: 30px;
         max-width: 70%;
         font-size: 25px;
@@ -665,5 +665,23 @@ h1{
         top: 70px;
         left: 30px;
         font-size: 20px;
+    }
+
+    .download_resume{
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        max-width: 280px;
+        font-size: 20px;
+        border-radius: 70px;
+        font-family: 'Geist', sans-serif;
+        position: relative;
+        background-image: linear-gradient(to right, #e3345e, purple, blue);;
+        color: white;
+        font-weight: bold;
+        top: 75px;
+        left: 20px;
+        border: none; 
     }
 }
