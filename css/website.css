@@ -589,44 +589,45 @@ h1{
     }
     #homeLink{
         font-family: 'Geist', sans-serif;
-        left: 50px;
-        top: -1300px;
+        left: 30px;
+        top: -1250px;
         position: relative;
         color: white;
+        font-size: 15px;
     }
     .contactLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -1300px;
-        left: 130px;
+        top: -1250px;
+        left: 50px;
         color: white;
         padding: 0;
         border: none;
         background: none;
-        font-size: 30px;
+        font-size: 15px;
     }
 
     #AboutLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -1340px;
-        left: 450px;
+        top: -1250px;
+        left: 90px;
         color: white;
         padding: 0;
         border: none;
         background: none;
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .ProjectsLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -1300px;
-        left: 450px;
+        top: -1250px;
+        left: 70px;
         color: white;
         padding: 0;
         border: none;
         background: none;
-        font-size: 30px;
+        font-size: 15px;
     }
 }
