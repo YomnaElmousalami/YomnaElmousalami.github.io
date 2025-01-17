@@ -590,7 +590,7 @@ h1{
     #homeLink{
         font-family: 'Geist', sans-serif;
         left: 30px;
-        top: -890px;
+        top: -840px;
         position: relative;
         color: white;
         font-size: 15px;
@@ -598,7 +598,7 @@ h1{
     .contactLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -890px;
+        top: -840px;
         left: 50px;
         color: white;
         padding: 0;
@@ -610,7 +610,7 @@ h1{
     .ProjectsLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -890px;
+        top: -840px;
         left: 70px;
         color: white;
         padding: 0;
@@ -622,7 +622,7 @@ h1{
     #AboutLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -890px;
+        top: -840px;
         left: 90px;
         color: white;
         padding: 0;
@@ -637,7 +637,7 @@ h1{
 
     .main_title{
         left: 30px;
-        top: -220px;
+        top: -210px;
         font-size: 45px;
         max-width: 50%;
     }
@@ -651,5 +651,12 @@ h1{
         position: relative;
         object-fit: cover;
         object-position: center;
+    }
+
+    .caption_pt1{
+        top: 60px;
+        left: 30px;
+        max-width: 70%;
+        font-size: 25px;
     }
 }
