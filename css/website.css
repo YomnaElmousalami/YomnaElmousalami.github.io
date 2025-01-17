@@ -909,4 +909,14 @@ h1{
         left: 30px;
         top: 1000px;
     }
+
+    .AboutLabel{
+        left: 28px;
+        font-size: 60px;
+    }
+
+    .aboutDescription{
+        left: -100px;
+        max-width: 100%;
+    }
 }
