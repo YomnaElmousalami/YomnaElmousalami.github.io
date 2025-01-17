@@ -582,15 +582,16 @@ h1{
 
   /*for iphone users*/
   @media only screen and (max-width: 767px){
-    body{
+    html, body{
         background-color: black;
-        overflow-y: auto;
+        overflow-y: scroll;
         overflow-x: auto;
+        height: 100%;
     }
     #homeLink{
         font-family: 'Geist', sans-serif;
         left: 30px;
-        top: -840px;
+        top: -670px;
         position: relative;
         color: white;
         font-size: 15px;
@@ -598,7 +599,7 @@ h1{
     .contactLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -840px;
+        top: -670px;
         left: 50px;
         color: white;
         padding: 0;
@@ -610,7 +611,7 @@ h1{
     .ProjectsLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -840px;
+        top: -670px;
         left: 70px;
         color: white;
         padding: 0;
@@ -622,7 +623,7 @@ h1{
     #AboutLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -840px;
+        top: -670px;
         left: 90px;
         color: white;
         padding: 0;
@@ -639,14 +640,14 @@ h1{
         left: 30px;
         top: -210px;
         font-size: 45px;
-        max-width: 50%;
+        max-width: 83%;
     }
 
     #photo_circle{
         left: 10px;
         width: 250px;
         height: 250px;
-        top: 230px;
+        top: 190px;
         border-radius: 50%;
         position: relative;
         object-fit: cover;
@@ -654,9 +655,15 @@ h1{
     }
 
     .caption_pt1{
-        top: 60px;
+        top: 75px;
         left: 30px;
         max-width: 70%;
         font-size: 25px;
+    }
+
+    .caption_pt2{
+        top: 70px;
+        left: 30px;
+        font-size: 20px;
     }
 }
