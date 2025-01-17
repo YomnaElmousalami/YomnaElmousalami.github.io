@@ -589,7 +589,7 @@ h1{
     }
     #homeLink{
         font-family: 'Geist', sans-serif;
-        left: 60px;
+        left: 50px;
         top: -1300px;
         position: relative;
         color: white;
@@ -598,7 +598,7 @@ h1{
         font-family: 'Geist', sans-serif;
         position: relative;
         top: -1300px;
-        left: 200px;
+        left: 130px;
         color: white;
         padding: 0;
         border: none;
@@ -609,8 +609,8 @@ h1{
     #AboutLink{
         font-family: 'Geist', sans-serif;
         position: relative;
-        top: -1300px;
-        left: 440px;
+        top: -1340px;
+        left: 450px;
         color: white;
         padding: 0;
         border: none;
