@@ -729,4 +729,36 @@ h1{
         background: none;
         font-size: 15px;
     }
+
+    .logLogo{
+        display: none;
+    }
+
+    .reachOut{
+        left: 30px;
+        top: 20px;
+        font-size: 45px;
+        max-width: 83%;
+    }
+
+    .emailLogo img{
+        left: 30px;
+    }
+
+    .linkedIn img{
+        left: 30px;
+    }
+
+    .GitHub img{
+        left: 30px;
+    }
+
+    .resume{
+        left: 30px;
+        top: 90px;
+    }
+
+    .rlogo{
+        left: 30px;
+    }
 }
