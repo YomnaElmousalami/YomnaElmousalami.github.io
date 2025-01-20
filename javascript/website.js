@@ -5,3 +5,11 @@ function downloadResume() {
     document.body.appendChild(resume);
     resume.click();
 }
+
+const imageYomna = document.querySelector('#photo_circle');
+const canvas = document.getElementById('#confetti');
+const jsConfetti = new JSConfetti({ });
+
+window.onload = () => {
+    jsConfetti.addConfetti()
+};
