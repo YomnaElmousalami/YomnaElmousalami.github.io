@@ -902,12 +902,14 @@ h1{
     .viewProjectLabs
     {
         left: 30px;
-        top: 1000px;
+        top: 900px;
     }
 
     .stayTuned{
         left: 30px;
-        top: 1000px;
+        top: 950px;
+        font-size: 30px;
+        max-width: 80%;
     }
 
     .AboutLabel{
