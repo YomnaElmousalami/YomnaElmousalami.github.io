@@ -19,7 +19,7 @@ body{
     object-fit: cover;
     object-position: center;
     left: 800px;
-    top: 170px;
+    top: 50px;
 }
 
 .main_title{
@@ -27,7 +27,7 @@ body{
     font-family: 'Geist', sans-serif;
     font-size: 70px;
     position: relative;
-    top: -350px;
+    top: -500px;
     left: 290px;
 }
 
@@ -37,7 +37,7 @@ body{
     font-family: 'Geist', sans-serif;
     font-size: 40px;
     position: relative;
-    top: -380px;
+    top: -525px;
     left: 50px;
 }
 
@@ -47,7 +47,7 @@ body{
     font-family: 'Geist', sans-serif;
     font-size: 40px;
     position: relative;
-    top: -410px;
+    top: -560px;
     left: 270px;
 }
 
@@ -57,48 +57,34 @@ a {
     font-size: 30px;
   }
 
-#homeLink{
-    font-family: 'Geist', sans-serif;
-    left: 80px;
-    top: -1000px;
+.navLinks{
     position: relative;
     color: white;
+    font-family: 'Geist', sans-serif;
 }
 
-.contactLink{
-    font-family: 'Geist', sans-serif;
+#homeLink, #aboutHome{
     position: relative;
-    top: -1000px;
+    left: 60px;
+    top: 50px;
+}
+
+.contactLink, .aboutContact{
+    position: relative;
+    top: 50px;
     left: 200px;
-    color: white;
-    padding: 0;
-    border: none;
-    background: none;
-    font-size: 30px;
 }
 
-.ProjectsLink{
-    font-family: 'Geist', sans-serif;
+.ProjectsLink, .aboutProject{
     position: relative;
-    top: -1000px;
-    left: 320px;
-    color: white;
-    padding: 0;
-    border: none;
-    background: none;
-    font-size: 30px;
+    top: 50px;
+    left: 360px;
 }
 
-#AboutLink{
-    font-family: 'Geist', sans-serif;
+#AboutLink, .aboutMe{
     position: relative;
-    top: -1000px;
-    left: 440px;
-    color: white;
-    padding: 0;
-    border: none;
-    background: none;
-    font-size: 30px;
+    top: 50px;
+    left: 530px;
 }
 
 .download_resume{
@@ -113,77 +99,13 @@ a {
     background-image: linear-gradient(to right, #e3345e, purple, blue);;
     color: white;
     font-weight: bold;
-    top: -350px;
+    top: -520px;
     left: 220px;
     border: none; 
 }
 
-.loginLogo{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: #8558b7;
-    position: relative;
-    top: -1092px;
-    left: 1300px;
-}
-
-.loginLogo p{
-    color: white;
-    font-family: 'Geist', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    position: relative;
-    left: 23px;
-    top: 10px;
-}
-
 h1{
     color: white;
-}
-
-#aboutHome{
-    font-family: 'Geist', sans-serif;
-    position: relative;
-    color: white;
-    top: 55px;
-    left: 80px;
-    padding: 0;
-    border: none;
-    background: none;
-}
-
-.aboutContact{
-    font-family: 'Geist', sans-serif;
-    position: relative;
-    color: white;
-    top: 55px;
-    left: 180px;
-    padding: 0;
-    border: none;
-    background: none;
-}
-
-.aboutProject{
-    font-family: 'Geist', sans-serif;
-    position: relative;
-    top: 55px;
-    left: 280px;
-    color: white;
-    padding: 0;
-    border: none;
-    background: none;
-}
-
-.aboutMe{
-    font-family: 'Geist', sans-serif;
-    position: relative;
-    top: 55px;
-    left: 380px;
-    color: white;
-    padding: 0;
-    border: none;
-    background: none;
 }
 
 .logLogo{
@@ -579,346 +501,3 @@ h1{
     top: -170px;
     font-size: 50px;
   }
-
-
-  /*for iphone users*/
-  @media only screen and (max-width: 767px){
-    html, body{
-        background-color: black;
-        overflow-y: scroll;
-        height: 100%;
-    }
-    #homeLink{
-        font-family: 'Geist', sans-serif;
-        left: 30px;
-        top: -560px;
-        position: relative;
-        color: white;
-        font-size: 15px;
-    }
-    .contactLink{
-        font-family: 'Geist', sans-serif;
-        position: relative;
-        top: -560px;
-        left: 50px;
-        color: white;
-        padding: 0;
-        border: none;
-        background: none;
-        font-size: 15px;
-    }
-
-    .ProjectsLink{
-        font-family: 'Geist', sans-serif;
-        position: relative;
-        top: -560px;
-        left: 70px;
-        color: white;
-        padding: 0;
-        border: none;
-        background: none;
-        font-size: 15px;
-    }
-
-    #AboutLink{
-        font-family: 'Geist', sans-serif;
-        position: relative;
-        top: -560px;
-        left: 90px;
-        color: white;
-        padding: 0;
-        border: none;
-        background: none;
-        font-size: 15px;
-    }
-
-    .loginLogo{
-        display: none;
-    }
-
-    .main_title{
-        left: 30px;
-        top: -200px;
-        font-size: 45px;
-        max-width: 83%;
-    }
-
-    #photo_circle{
-        left: 10px;
-        width: 250px;
-        height: 250px;
-        top: 190px;
-        border-radius: 50%;
-        position: relative;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .caption_pt1{
-        top: 70px;
-        left: 30px;
-        max-width: 70%;
-        font-size: 25px;
-    }
-
-    .caption_pt2{
-        top: 70px;
-        left: 30px;
-        font-size: 20px;
-    }
-
-    .download_resume{
-        padding-top: 15px;
-        padding-right: 10px;
-        padding-bottom: 15px;
-        padding-left: 10px;
-        max-width: 280px;
-        font-size: 20px;
-        border-radius: 70px;
-        font-family: 'Geist', sans-serif;
-        position: relative;
-        background-image: linear-gradient(to right, #e3345e, purple, blue);;
-        color: white;
-        font-weight: bold;
-        top: 75px;
-        left: 20px;
-        border: none; 
-    }
-
-    #aboutHome{
-        font-family: 'Geist', sans-serif;
-        left: 30px;
-        top: 10px;
-        position: relative;
-        color: white;
-        font-size: 15px;
-    }
-
-    .aboutContact{
-        font-family: 'Geist', sans-serif;
-        position: relative;
-        top: 10px;
-        left: 50px;
-        color: white;
-        padding: 0;
-        border: none;
-        background: none;
-        font-size: 15px;
-    }
-
-    .aboutProject{
-        font-family: 'Geist', sans-serif;
-        position: relative;
-        top: 10px;
-        left: 70px;
-        color: white;
-        padding: 0;
-        border: none;
-        background: none;
-        font-size: 15px;
-    }
-
-    .aboutMe{
-        font-family: 'Geist', sans-serif;
-        position: relative;
-        top: 10px;
-        left: 90px;
-        color: white;
-        padding: 0;
-        border: none;
-        background: none;
-        font-size: 15px;
-    }
-
-    .logLogo{
-        display: none;
-    }
-
-    .reachOut{
-        left: 30px;
-        top: 20px;
-        font-size: 45px;
-        max-width: 83%;
-    }
-
-    .emailLogo img{
-        left: 30px;
-    }
-
-    .linkedIn img{
-        left: 30px;
-    }
-
-    .GitHub img{
-        left: 30px;
-    }
-
-    .resume{
-        left: 30px;
-        top: 90px;
-    }
-
-    .rlogo{
-        left: 30px;
-    }
-
-    .projectTitle{
-        left: 30px;
-    }
-
-    .pDescription{
-        left: 30px;
-        max-width: 94%;
-    }
-
-    .chronology{
-        left: 30px;
-        width: 320px;
-    }
-
-    .chronTitle{
-        left: 30px;
-        max-width: 96%;
-    }
-
-    .chronDesc{
-        left: 30px;
-        max-width: 92%;
-    }
-
-    .viewProject{
-        left: 25px;
-        top: 110px;
-    }
-
-    .productive{
-        left: 30px;
-        top: 220px;
-        width: 320px;
-    }
-
-    .productTitle{
-        left: 30px;
-        top: 230px;
-    }
-
-    .productDesc{
-        left: 30px;
-        top: 230px;
-        max-width: 100%;
-    }
-
-    .viewProject1{
-        left: 30px;
-        top: 270px;
-    }
-
-    .map{
-        left: 30px;
-        top: 370px;
-        width: 320px;
-    }
-
-    .NYC{
-        left: 30px;
-        top: 400px;
-    }
-
-    .NYCdesc{
-        left: 30px;
-        top: 400px;
-        max-width: 100%;
-    }
-
-    .viewProject2{
-        left: 30px;
-        top: 450px;
-    }
-
-    .undergrad{
-        left: 30px;
-        top: 540px;
-        width: 320px;
-    }
-
-    .undergradTitle{
-        left: 25px;
-        top: 560px;
-        max-width: 90%;
-    }
-
-    .paper{
-        left: 30px;
-        top: 570px;
-        max-width: 85%;
-    }
-
-    .viewProject3{
-        left: 30px;
-        top: 600px;
-    }
-
-    .filter{
-        left: 30px;
-        width: 320px;
-        top: 685px;
-    }
-
-    .imageFilter{
-        left: 30px;
-        top: 425px;
-    }
-
-    .imFilterDec{
-        left: 30px;
-        top: 230px;
-        max-width: 90%;
-    }
-
-    .viewProjectImFilter{
-        left: 30px;
-        top: 270px;
-    }
-
-    .cnn{
-        left: 30px;
-        top: 1040px;
-        width: 320px;
-    }
-
-    .labs{
-        left: 30px;
-        top: 980px;
-    }
-
-    .labDesc
-    {
-        left: 30px;
-        top: 990px;
-        max-width: 90%;
-    }
-
-    /*need to fix this area*/
-    .viewProjectLabs
-    {
-        left: 30px;
-        top: 900px;
-    }
-
-    .stayTuned{
-        left: 30px;
-        top: 950px;
-        font-size: 30px;
-        max-width: 80%;
-    }
-
-    .AboutLabel{
-        left: 28px;
-        font-size: 60px;
-    }
-
-    .aboutDescription{
-        left: -100px;
-        max-width: 100%;
-    }
-}
