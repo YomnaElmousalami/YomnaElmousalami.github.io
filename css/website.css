@@ -11,6 +11,11 @@ html, body{
     overflow: auto;
 } 
 
+button{
+    color: white;
+    font-family: 'Geist', sans-serif;
+}
+
 img{
     display: block;
     width: 100%
@@ -61,15 +66,19 @@ img{
 a {
     text-decoration: none;
     color: white;
+    font-family: 'Geist', sans-serif;
     font-size: 30px;
+  }
+
+  #projTitle{
+    margin-left: 80px;
+    font-size: 70px;
   }
 
 .navLinks{
     display: flex;
-    color: white;
-    font-family: 'Geist', sans-serif;
     flex-direction: row;
-    gap: 90px;
+    gap: 120px;
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-left: 80px;
@@ -88,10 +97,8 @@ a {
     padding-left: 80px;
     font-size: 35px;
     border-radius: 70px;
-    font-family: 'Geist', sans-serif;
     position: relative;
     background-image: linear-gradient(to right, #e3345e, purple, blue);;
-    color: white;
     font-weight: bold;
     margin-left: 220px;
     margin-top: -150px;
@@ -103,17 +110,20 @@ h1, p{
     font-family: 'Geist', sans-serif;
 }
 
-.AboutLabel{
+h2 {
     color: white;
     font-family: 'Geist', sans-serif;
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+.AboutLabel{
     font-size: 70px;
     position: relative;
     left: 140px;
 }
 
 .aboutDescription{
-    color: white;
-    font-family: 'Geist', sans-serif;
     position: relative;
     margin-left: 140px;
     max-width: 70%;
@@ -122,8 +132,6 @@ h1, p{
 }
 
 .reachOut{
-    color: white;
-    font-family: 'Geist', sans-serif;
     position: relative;
     font-size: 60px;
     left: 80px;
@@ -161,8 +169,6 @@ h1, p{
 }
 
 .resume{
-    color: white;
-    font-family: 'Geist', sans-serif;
     position: relative;
     font-size: 60px;
     left: 80px;
@@ -175,10 +181,8 @@ h1, p{
     padding-bottom: 5px;
     padding-left: 50px;
     font-size: 50px;
-    font-family: 'Geist', sans-serif;
     position: relative;
     background: purple;
-    color: white;
     font-weight: bold;
     top: 40px;
     left: 80px;
@@ -194,4 +198,11 @@ h1, p{
   .ODU:visited {
     text-decoration: underline; 
     font-size: 30px;
+  }
+
+  .one, .two, .three, .four, .five, .six, .seven, .eight{
+    color: cyan; 
+    text-decoration: underline;
+    text-underline-offset: 3px; 
+    text-decoration-thickness: 3.1px;
   }
