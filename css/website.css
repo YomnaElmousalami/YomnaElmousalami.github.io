@@ -32,35 +32,29 @@ img{
     margin-top: 30px;
 }
 
-.homepage{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    max-width: 100%; 
-}
-
 .main_title{
     font-size: 70px;
     position: relative;
-    margin-top: -420px;
-    margin-left: 300px;
+    top: -460px;
+    left: 85px;
 }
 
 .caption_pt1
 {
     font-size: 40px;
     position: relative;
-    margin-top: -310px;
-    margin-left: -680px;
-
+    left: 85px;
+    top: -500px;
+    line-height: 1.5;
 }
 
 .caption_pt2
 {
     font-size: 40px;
     position: relative;
-    margin-top: -240px;
-    margin-left: -465px;
+    text-align: left;
+    top: -580px;
+    left: 85px;
 }
 
 a {
@@ -87,10 +81,6 @@ a {
 }
 
 .download_resume{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    max-width: 100%; 
     padding-top: 30px;
     padding-right: 80px;
     padding-bottom: 30px;
@@ -100,8 +90,8 @@ a {
     position: relative;
     background-image: linear-gradient(to right, #e3345e, purple, blue);;
     font-weight: bold;
-    margin-left: 220px;
-    margin-top: -150px;
+    left: 85px;
+    top: -540px;
     border: none; 
 }
 
