@@ -132,31 +132,18 @@ h2 {
     display: flex;
 }
 
-.emailLogo img{
+.emailLogo img, .linkedIn img, .GitHub img{
     position: relative;
     height: 80px;
     width: 250px;
-    left: 80px;
     top: 50px;
 }
 
-.linkedIn img{
-    position: relative;
-    height: 80px;
-    width: 250px;
-    height: 80px;
-    left: 100px;
-    top: 50px;
-}
+.emailLogo img{left: 80px;}
 
-.GitHub img{
-    position: relative;
-    height: 80px;
-    width: 250px;
-    height: 80px;
-    left: 120px;
-    top: 50px;
-}
+.linkedIn img{left: 100px;}
+
+.GitHub img{left: 120px;}
 
 .resume{
     position: relative;
