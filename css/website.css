@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    color: white;
+    font-family: 'Geist', sans-serif;
 }
 
 html, body{
@@ -10,11 +12,6 @@ html, body{
     height: 100%;
     overflow: auto;
 } 
-
-button{
-    color: white;
-    font-family: 'Geist', sans-serif;
-}
 
 img{
     display: block;
@@ -59,8 +56,6 @@ img{
 
 a {
     text-decoration: none;
-    color: white;
-    font-family: 'Geist', sans-serif;
     font-size: 30px;
   }
 
@@ -95,14 +90,7 @@ a {
     border: none; 
 }
 
-h1, p{
-    color: white;
-    font-family: 'Geist', sans-serif;
-}
-
 h2 {
-    color: white;
-    font-family: 'Geist', sans-serif;
     margin-left: 80px;
     font-size: 30px;
 }
