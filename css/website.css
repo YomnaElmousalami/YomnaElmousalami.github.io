@@ -68,7 +68,6 @@ a {
     display: flex;
     flex-direction: row;
     gap: 120px;
-    justify-content: flex-start;
     flex-wrap: wrap;
     margin-left: 80px;
     margin-top: 50px;
