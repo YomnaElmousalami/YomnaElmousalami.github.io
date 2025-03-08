@@ -165,7 +165,7 @@ h2 {
   }
 
   .one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
-    color: cyan; 
+    color: #76ace7; 
     text-decoration: underline;
     text-underline-offset: 3px; 
     text-decoration-thickness: 3.1px;
