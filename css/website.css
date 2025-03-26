@@ -1,16 +1,12 @@
 * {
-    box-sizing: border-box;
     color: white;
     font-family: 'Geist', sans-serif;
 }
 
-html, body{
+body{
     margin: 0;
     padding: 0;
     background-color: black;
-    scroll-behavior: smooth;
-    height: 100%;
-    overflow: auto;
 } 
 
 img{
@@ -97,13 +93,13 @@ h2 {
 .AboutLabel{
     font-size: 70px;
     position: relative;
-    left: 140px;
+    left: 80px;
 }
 
 .aboutDescription{
     position: relative;
-    margin-left: 140px;
-    max-width: 70%;
+    margin-left: 80px;
+    max-width: 80%;
     font-size: 25px;
     line-height: 1.5;
 }
