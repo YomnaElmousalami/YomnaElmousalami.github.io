@@ -57,6 +57,7 @@ a {
 
   #projTitle{
     margin-left: 80px;
+    margin-top: 60px;
     font-size: 70px;
   }
 
@@ -92,8 +93,13 @@ h2 {
 
 .AboutLabel{
     font-size: 70px;
-    position: relative;
-    left: 80px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.random{
+    font-size: 50px;
+    margin-left: 80px;
 }
 
 .aboutDescription{
@@ -105,10 +111,9 @@ h2 {
 }
 
 .reachOut{
-    position: relative;
     font-size: 60px;
-    left: 80px;
-    top: 20px;
+    margin-left: 80px;
+    margin-top: 85px;
 }
 
 .directTo{
@@ -116,23 +121,21 @@ h2 {
 }
 
 .emailLogo img, .linkedIn img, .GitHub img{
-    position: relative;
     height: 80px;
     width: 250px;
-    top: 50px;
+    margin-top: 50px;
 }
 
-.emailLogo img{left: 80px;}
+.emailLogo img{margin-left: 80px;}
 
-.linkedIn img{left: 100px;}
+.linkedIn img{margin-left: 50px;}
 
-.GitHub img{left: 120px;}
+.GitHub img{margin-left: 50px;}
 
 .resume{
-    position: relative;
     font-size: 60px;
-    left: 80px;
-    top: 60px;
+    margin-left: 80px;
+    margin-top: 60px;
 }
 
 .rlogo{
@@ -141,11 +144,10 @@ h2 {
     padding-bottom: 5px;
     padding-left: 50px;
     font-size: 50px;
-    position: relative;
     background: purple;
     font-weight: bold;
-    top: 40px;
-    left: 80px;
+    margin-top: 0px;
+    margin-left: 80px;
     border: none;
 }
   .ODU{
