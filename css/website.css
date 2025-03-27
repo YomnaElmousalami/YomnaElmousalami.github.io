@@ -3,10 +3,13 @@
     font-family: 'Geist', sans-serif;
 }
 
-body{
+html, body{
     margin: 0;
     padding: 0;
     background-color: black;
+    scroll-behavior: smooth;
+    overflow: auto;
+    height: 100%;
 } 
 
 img{
@@ -18,7 +21,6 @@ img{
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    position: relative;
     object-fit: cover;
     object-position: center;
     margin-left: 780px;
@@ -27,27 +29,22 @@ img{
 
 .main_title{
     font-size: 70px;
-    position: relative;
-    top: -460px;
-    left: 85px;
+    margin-top: -400px;
+    margin-left: 85px;
 }
 
 .caption_pt1
 {
     font-size: 40px;
-    position: relative;
-    left: 85px;
-    top: -500px;
-    line-height: 1.5;
+    margin-left: 85px;
+    margin-top: 10px;
 }
 
 .caption_pt2
 {
     font-size: 40px;
-    position: relative;
-    text-align: left;
-    top: -580px;
-    left: 85px;
+    margin-top: -50px;
+    margin-left: 85px;
 }
 
 a {
@@ -78,11 +75,9 @@ a {
     padding-left: 80px;
     font-size: 35px;
     border-radius: 70px;
-    position: relative;
     background-image: linear-gradient(to right, #e3345e, purple, blue);;
     font-weight: bold;
-    left: 85px;
-    top: -540px;
+    margin-left: 85px;
     border: none; 
 }
 
@@ -100,6 +95,7 @@ h2 {
 .random{
     font-size: 50px;
     margin-left: 80px;
+    margin-top: 70px;
 }
 
 .aboutDescription{
