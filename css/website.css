@@ -12,40 +12,42 @@ html, body{
     height: 100%;
 } 
 
-#photo_circle{
-    width: 450px;
-    height: 450px;
+.homepage_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    gap: 40px;
+}
+
+#photo_circle {
+    width: 380px;
+    height: 380px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    margin-left: 780px;
-    margin-top: 30px;
-    transform: translateY(35px);
+    flex-shrink: 0;
 }
 
-img{
+img {
     display: block;
-    width: 100%
+    width: 100%;
 }
 
-.main_title{
-    font-size: 70px;
-    margin-top: -400px;
-    margin-left: 85px;
+.main_title {
+    font-size: clamp(36px, 5vw, 70px);
+    margin: 0 0 16px 0;
 }
 
-.caption_pt1
-{
-    font-size: 40px;
-    margin-left: 85px;
-    margin-top: 10px;
+.caption_pt1 {
+    font-size: clamp(20px, 3vw, 40px);
+    margin: 0 0 10px 0;
 }
 
-.caption_pt2
-{
-    font-size: 40px;
-    margin-top: -50px;
-    margin-left: 85px;
+.caption_pt2 {
+    font-size: clamp(20px, 3vw, 40px);
+    margin: 0;
 }
 
 a {
@@ -56,7 +58,7 @@ a {
   #projTitle{
     margin-left: 80px;
     margin-top: 60px;
-    font-size: 70px;
+    font-size: clamp(36px, 5vw, 70px);
   }
 
 .navLinks{
@@ -88,7 +90,7 @@ h2 {
 }
 
 .AboutLabel{
-    font-size: 70px;
+    font-size: clamp(36px, 5vw, 70px);
     margin-left: 80px;
     margin-top: 60px;
 }
@@ -160,8 +162,91 @@ h2 {
   }
 
   .one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
-    color: #76ace7; 
+    color: #76ace7;
     text-decoration: underline;
-    text-underline-offset: 3px; 
+    text-underline-offset: 3px;
     text-decoration-thickness: 3.1px;
   }
+
+@media (max-width: 768px) {
+    .homepage_info {
+        flex-direction: column;
+        padding: 30px 24px;
+        text-align: center;
+    }
+
+    #photo_circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .navLinks {
+        gap: 30px;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .download_resume {
+        display: block;
+        margin: 0 auto;
+        font-size: 22px;
+        padding: 16px 40px;
+    }
+
+    .AboutLabel {
+        margin-left: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .aboutDescription {
+        margin-left: 24px;
+        max-width: 90%;
+        font-size: 18px;
+    }
+
+    #projTitle {
+        margin-left: 0;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: 18px;
+    }
+
+    .reachOut {
+        margin-left: 0;
+        text-align: center;
+        font-size: clamp(30px, 5vw, 60px);
+    }
+
+    .directTo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .emailLogo img, .linkedIn img, .GitHub img {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .resume {
+        margin-left: 0;
+        text-align: center;
+        font-size: clamp(30px, 5vw, 60px);
+    }
+
+    .rlogo {
+        display: block;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    
+    .one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+        font-size: 18px;
+    }
+
+}
