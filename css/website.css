@@ -52,7 +52,7 @@ img {
 
 a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: clamp(18px, 2.5vw, 30px);
   }
 
   #projTitle{
@@ -96,7 +96,7 @@ h2 {
 }
 
 .random{
-    font-size: 50px;
+    font-size: clamp(26px, 4vw, 50px);
     margin-left: 80px;
     margin-top: 70px;
 }
@@ -110,29 +110,26 @@ h2 {
 }
 
 .reachOut{
-    font-size: 60px;
+    font-size: clamp(28px, 5vw, 60px);
     margin-left: 80px;
     margin-top: 85px;
 }
 
 .directTo{
     display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 80px;
 }
 
 .emailLogo img, .linkedIn img, .GitHub img{
-    height: 80px;
-    width: 250px;
+    height: 70px;
+    width: auto;
     margin-top: 50px;
 }
 
-.emailLogo img{margin-left: 80px;}
-
-.linkedIn img{margin-left: 50px;}
-
-.GitHub img{margin-left: 50px;}
-
 .resume{
-    font-size: 60px;
+    font-size: clamp(28px, 5vw, 60px);
     margin-left: 80px;
     margin-top: 60px;
 }
@@ -167,6 +164,51 @@ h2 {
     text-underline-offset: 3px;
     text-decoration-thickness: 3.1px;
   }
+
+@media (max-width: 1024px) {
+    #photo_circle {
+        width: 280px;
+        height: 280px;
+    }
+
+    .homepage_info {
+        padding: 30px 40px;
+        gap: 24px;
+    }
+
+    .navLinks {
+        gap: 50px;
+        margin-left: 40px;
+    }
+
+    .AboutLabel, .reachOut, .resume, .random {
+        margin-left: 40px;
+    }
+
+    #projTitle {
+        margin-left: 40px;
+    }
+
+    .aboutDescription {
+        margin-left: 40px;
+    }
+
+    h2 {
+        margin-left: 40px;
+    }
+
+    .download_resume {
+        margin-left: 40px;
+    }
+
+    .directTo {
+        margin-left: 40px;
+    }
+
+    .rlogo {
+        margin-left: 40px;
+    }
+}
 
 @media (max-width: 768px) {
     .homepage_info {
@@ -226,9 +268,11 @@ h2 {
     .directTo {
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
     }
 
     .emailLogo img, .linkedIn img, .GitHub img {
+        height: 50px;
         margin-left: 0;
         margin-top: 20px;
     }
